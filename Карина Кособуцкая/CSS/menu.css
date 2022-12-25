@@ -1,0 +1,19 @@
+.primary-nav-trigger .menu-icon{
+    display:inline-block;
+    position: absolute;
+    right: 10%;
+    top:50%;
+    width: 39%;
+    height:2px;
+    background-color: black;
+}
+.primry-nav-trigger .menu-icon::before, .primary-nav-trigger .menu-icon::after{
+background-blend-mode:multiply,normal;
+display: flex;
+color: #d6d5d5;
+align-items: center;
+min-height: 650px;
+width: 100%;
+background-size: cover;
+text-align: center;
+}
